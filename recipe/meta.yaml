@@ -1,5 +1,5 @@
 {% set name = "stochastic" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fd38e9ccc83bac74f04361452f2ad3cfae865cf2700788484599005dfb407b88
+  sha256: c166b5f7707d0857597125dbffa03f59cb1ffb668cb027396d4cca69b3df1b7b
 
 build:
   number: 0
